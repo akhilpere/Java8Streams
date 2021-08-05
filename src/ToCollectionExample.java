@@ -1,3 +1,7 @@
+// Implementation of ToCollection
+//  In Java 8
+
+
 import java.util.Collection;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
@@ -5,6 +9,7 @@ import java.util.stream.Stream;
 
 public class ToCollectionExample
   {
+  //      Driver code
       public static void main(String[] args) {
           Stream<String> s = Stream.of("B", "F", "BC classes");
 
